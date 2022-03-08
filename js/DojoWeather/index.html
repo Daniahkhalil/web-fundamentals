@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="header1"> 
+         <h1>Dojo Weather</h1>
+         <span  id="spanRight">
+              <a href="#" onclick="alert1()" >Barbank</a><a href="#" onclick="alert1()" >Chicago</a>  <a href="#" onclick="alert1()" >Dallas</a>     
+         </span>
+     </header>
+     <nav class="navbar">
+         <h1>San Jose</h1>
+         <span>
+            <span>show temperature in</span>
+            <select onchange="transfer(this)">
+                <option>C</option>
+                <option>F</option>
+         
+            </select>
+         </span>
+           
+     </nav>
+         <section class="sectionImg">
+
+           <div class="divImg">
+               <h1>Today</h1>
+               <img src="assets/some_rain.png" alt="rain" class="imgWether">
+               <h3>Some Rain</h3>
+               <span  class="span1">75</span>
+               <span  class="span2">65</span>
+            </div> 
+
+           <div class="divImg">
+            <h1>Tomorrow</h1>
+               <img src="assets/some_sun.png" alt="sun" class="imgWether">
+               <h3>Some Sun</h3>
+               <span class="span1" id="temp1">78</span>
+               <span  class="span2" id="temp2">70</span>
+            </div>
+
+           <div class="divImg">
+            <h1>Friday</h1>
+            <img src="assets/some_clouds.png" alt="clouds" class="imgWether"> 
+            <h3>Some Clouds</h3>
+            <span  class="span1" id="temp3">88</span>
+            <span  class="span2" id="temp4">66</span>
+        </div>
+
+           <div class="divImg">
+            <h1>Saturday</h1>
+            <img src="assets/some_sun.png" alt="sun" class="imgWether">
+            <h3>Some Sun</h3>
+            <span  class="span1" id="temp5">69</span>
+            <span  class="span2" id="temp6">61</span>
+            </div>
+        
+           
+         </section>
+         <footer class="EndOfPage">
+           <img src="assets/cookie.png" style="margin: 2%;"> 
+               <div>
+                <h1> stop! Cookie time</h1>
+                <p >we use cookies (sadly not edible ones) to personalize content and ads, to provide social media features and to analyse our  traffic <a href="#">Read me</a></p>
+            </div >
+             <input value="I Accept"  id="accept" onclick="remove1()">
+         </footer>
+            
+    
+    <script src="javascript.js"></script>
+</body>
+</html>

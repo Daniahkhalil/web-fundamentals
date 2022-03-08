@@ -1,0 +1,86 @@
+.header1{
+
+    background-color: #9fc5f8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#spanRight a{
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar{
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 10%;
+}
+
+.imgWether{
+  
+    width: 93%;
+    margin: 3%;
+    border-radius: 91%;
+    position: relative;
+    left:2%;
+
+}
+.sectionImg{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:5% ;
+
+}
+
+.divImg{
+    width: 18%;
+    background-color: #eeeeee;
+    margin: 1%;
+    padding: 5%;
+}
+#spanRight{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+.EndOfPage{
+    width: 96%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    border: 2px solid black;
+}
+#accept{
+    width: 8%;
+  background-color: blue;
+margin: 2%;
+}
+.span1{
+    color: red;
+    margin: 10%;
+    
+}
+.span2{
+    color: blue;
+    margin: 17%;
+}
+.span1::after,.span2::after{
+    content:"°";
+}

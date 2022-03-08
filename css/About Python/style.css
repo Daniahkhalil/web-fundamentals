@@ -1,0 +1,192 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start ;
+}
+.Basic{
+    width: 970px;
+    height: 970px;
+    background-color:#245076 ;
+}
+#link2{
+    color: rgb(236, 236, 15);
+    padding: 2px;
+  
+}
+/* .link1,.link2{
+    color: rgb(236, 236, 15);
+    padding: 2px;
+} */
+#link1{
+    
+    border-right:3px solid black;
+    color: rgb(236, 236, 15);
+    padding: 2px;
+   
+    
+    
+}
+.top1{
+    width: 200px;
+    height: 96px;
+    background-color: #245076;
+    display: flex;
+    justify-content: row;
+    flex-direction: column;
+    align-items:center ;
+}
+.inside1,.inside2{
+    width: 200px;
+    height: 96px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+ 
+   
+}
+.inside1{
+    margin-right: 50px;
+}
+.inside2{
+    background-color: #444444;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+#in1{
+    width: 30px;
+    background-color: blue;
+    text-align: center;
+    border: 2px solid grey;
+    margin: 10px;
+}
+#text1{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 1px;
+}
+.middle1{
+   height: 43px;
+   background-color: #447dad;
+   display: flex;
+   justify-content:space-around;
+   align-items:center ;
+   margin:20px;
+}
+.link3{
+    margin :0px;
+    text-decoration: none;
+    color: white;
+}
+.middle2{
+
+}
+.inside3{
+    width: 970px;
+    height: 268px;
+    background-color:  #245076;
+    display: flex;
+    justify-content:row;
+    align-items:center ;
+    
+}
+.mark{
+    color: rgb(211, 211, 20);
+    margin: 5px;
+    text-align: center;
+}
+  
+
+.inin1{
+  
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 256px;
+    left: 78px;
+    
+    
+}
+
+.inin{
+    width: 500px;
+    height: 100px;
+    background-color:#245076;
+    position: absolute;
+    top: 256px;
+    left: 478px;
+}
+#para1{
+    color: white;
+    text-align: center;  
+}
+.para2{
+    color: rgb(211, 211, 20);
+    margin:3px;
+    padding: 0px 90px;
+    text-align: center;
+
+}
+#para3{
+    color:white;
+    margin:3px;
+    padding: 0px 90px;
+    text-align: center;
+}
+.link40{
+    color: white;
+}
+#inside4{
+   
+    background: white;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+  
+}
+.num{
+    border-top: 3px solid #245; 
+    position :relative;
+     top: 10px; 
+    left: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.unordered{
+    color: blue;
+    text-align: center;
+    list-style: none;
+    
+}
+.lis{
+    list-style:square;
+
+   color: black;
+  
+       
+    
+}
+
+.slis{
+    color:blue;
+}
+.inside5{
+    width: 970px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link41{
+    color: aliceblue;
+    text-decoration: none;
+}
+.sa{
+    color: white;
+}
+.mli{
+    margin: 5px;
+}

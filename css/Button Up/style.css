@@ -1,0 +1,28 @@
+#search{
+    color:cornflowerblue;
+    background-color:lightgrey;
+    border-radius:25px;
+    align-content: centre;
+    width: 80px;
+     margin-left: 20px;
+    font-family: cursive;
+    font-weight: bold;
+
+
+}
+#pluse{
+    background-color:darkcyan;
+    color: aliceblue;
+    border-radius: 50%;
+    align-content: centre;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#Create{
+    color: black;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+}

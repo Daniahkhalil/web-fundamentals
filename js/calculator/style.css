@@ -1,0 +1,18 @@
+#calculator{
+    width: 8%;
+    margin: 0 auto;
+    background-color: grey;
+}
+.numbers, .operator{
+    border-radius: 50%;
+    
+}
+#equals{
+    margin:2%;
+    border-radius: 39%;
+    width: 95%;
+
+}
+.operator{
+    background-color: orange;
+}

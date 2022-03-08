@@ -1,0 +1,27 @@
+.row{
+    width: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.col,.col-2,.col-3{
+    background-color:darkcyan;
+    width:150px;
+    height: 50px;
+    margin: 5px;
+  
+
+}
+.col{
+    flex:1;
+}
+.col-2{
+
+ 
+    flex:2;
+}
+.col-3{
+
+    flex:3;
+}

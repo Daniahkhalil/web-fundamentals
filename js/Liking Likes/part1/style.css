@@ -1,0 +1,9 @@
+.basic{
+    width: 40%;
+    border:3px  solid black;
+    padding: 2%;
+}
+.btncounter{
+    float: right;
+    margin: 1%;
+}

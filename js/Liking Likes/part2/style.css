@@ -1,0 +1,38 @@
+#header{
+    background-color: black;
+    padding:1%;
+  
+}
+.rightsidebox1,.btncounter,#rightsideboxspan1,#rightsideboxspan2,#rightsideboxspan3{
+    border: 1px solid black;
+    float: right;
+    background-color:white;
+    padding: 1%;
+}
+.contianer{
+    width: 50%;
+    margin: 0px auto;
+   
+
+}
+.rightsidebox1{
+    width: 50%;
+    float: right;
+    margin-top: 1%;
+    margin-left:50% ;
+    
+}
+ 
+.leftsidebox{
+     float: left;
+    background-color:white;
+    border: 1px solid black;
+    position: fixed;
+    top: 25%;
+    padding: 1%;
+  
+
+}
+ #user{
+     width: 30%;
+ }
